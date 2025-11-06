@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Atritos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="t"> Atritos </h1> <!--Insere o título do site -->
+    <div id="cena1" class="comeco" style="display: none; opacity: 0;">
+      <input type="text" id="playerNameInput" placeholder="Digite seu nome (máx. 10)" maxlength="10" style=" background: orange; padding: 10px; margin-bottom: 20px; font-size: 16px; border-radius: 5px;">
+    </div>
+    <div id="fundo" class="container">
+    <div id="tetris">
+      <div id="info">
+        <div id="next_shape"></div>
+        <p id="level">Nível: <span></span></p>
+        <p id="lines">Linhas: <span></span></p>
+        <p id="score">Recorde: <span></span></p>
+        <p id="time">Tempo: <span></span></p>
+        <button id="start">Start</button>
+        <p class="pase">Pressione esc para pausar<span></span></p>
+      </div>
+      <div id="canvas"></div>
+    </div>
+    <button id="Easteregg" class="egg">
+    <p id="Textoegg" class="txst">Como já dizia Jack o estripador: vamos por partes</p>
+</button>
+    <dialog id="instructions" >
+        <h2> Bem-vindo ao Atritos</h2>
+        <p> Use as setas do teclado para movimentar as peças</p>
+        <button id="close"> Close </button>
+      </dialog>
+
+     
+      </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
